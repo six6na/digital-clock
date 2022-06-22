@@ -44,3 +44,40 @@ body {
 .ampm {
     font-size: 40px;
 }
+
+.A1 {
+    width: 60px;
+    height: 20px;
+    background: rgb(244, 155, 0);
+    flex: 1;
+    border-top-left-radius: 10px;
+}
+
+.A2 {
+    width: 90px;
+    height: 20px;
+    background: rgb(205, 130, 0);
+    flex: 1;
+}
+
+.A3 {
+    width: 90px;
+    height: 20px;
+    background: rgb(244, 155, 0);
+    flex: 1;
+    border-top-right-radius: 10px;
+}
+
+.As {
+    width: 230px;
+    display: flex;
+    position: relative;
+    left: 106px;
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(205, 130, 0);
+}
