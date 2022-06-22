@@ -14,24 +14,27 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    color: rgb(244, 155, 0);
 }
 
 .clock {
-    background: #e6f4d6;
+    background: rgb(228, 238, 215);
     background-image: url(./action.png);
+    background-position-x: right;
     box-shadow: 
     4px 4px 6px rgba(0,0,0, 0.3),
     0 0 8px rgba(0,0,0,0.7) inset;
     /* width: 400px; */
-    height: 140px;
+    height: 240px;
     display: flex;
     padding: 30px;
     justify-content: center;
     align-items: center;
-    border: 10px solid #333;
+    border: 10px solid rgb(12, 123, 214);
     border-radius: 10px;
     font-size: 90px;
     font-family: 'digital-7-mono',monospace;
+    text-shadow: 0 0 2px rgba(0,0,0, 0.3);
 }
 
 .clock .container {
