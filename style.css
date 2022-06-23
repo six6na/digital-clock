@@ -17,6 +17,18 @@ body {
     color: rgb(244, 155, 0);
 }
 
+.box.on {
+    animation-name: alarm;
+    animation-duration: 6ms;
+    animation-iteration-count: infinite;
+}
+
+@keyframes alarm {
+    0% {
+        margin-left: 0.5%;
+    }
+}
+
 .clock {
     background: rgb(228, 238, 215);
     background-image: url(./action.png);
@@ -73,6 +85,8 @@ body {
     display: flex;
     position: relative;
     left: 106px;
+    background: none;
+    border: none;
 }
 
 h2 {

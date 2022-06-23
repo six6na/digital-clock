@@ -19,10 +19,17 @@ $(function(){
 
     // 오전/오후 표시, 알람기능
     if(m == 50) {
-        if(s ==0){
-            alert('휴식시간');
+        if(s == 00){
+            /*alert('휴식시간');*/
+            $(function(){
+                $('.box').addClass('on')
+            })
         };
     }
+
+    $('.As').click(function(){
+        $('.box').removeClass('on')
+    })
     
     if(h < 12) {
         $('.ampm').html('am');
